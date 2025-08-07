@@ -9,8 +9,6 @@ JetZone is an immersive, offline-first Android application built with **Jetpack 
 Harness the power of AI to recognize and classify jets instantly:
 
 - 🧠 **Image Recognition** — Upload a jet image and let the AI guess the model.
-- 📸 **OCR Detection** — Detect and highlight key words like `Username` from blurry or small cockpit screens.
-- 🔍 **Smart Matching** — Match jets with similar profiles using advanced AI algorithms.
 - ⚡ **Fast & Efficient** — Optimized for real-time results on most devices.
   
 ### 🔍 Fighter Jet Database
@@ -40,7 +38,7 @@ Harness the power of AI to recognize and classify jets instantly:
 ### ↗️ Top Air Forces & Jet Inventory
 - Discover detailed data on **the world’s leading air powers**, including:
   - Total jet count
-  - Types of jets used (e.g., F-16, Su-30, Rafale, JF-17, etc.)
+  - Types of jets used (e.g., F-16, Su-30, Rafale, Su-57, etc.)
   - Origin of jets vs. deployed by country
   - Real-world statistics for each country’s air force
 
@@ -61,7 +59,7 @@ Harness the power of AI to recognize and classify jets instantly:
 - Learn while you play!
 
 ### 🌐 Offline First
-- All data is available offline — no internet required once installed.
+- Most data is available offline.
 
 ---
 
@@ -80,9 +78,8 @@ Harness the power of AI to recognize and classify jets instantly:
 
 ---
 ## 📥 Download the App
-
 <p align="center">
-  <a href="https://drive.google.com/file/d/1GIBVPksPa7eXIBqThlh3zOGtJOp547uQ/view?usp=sharing" target="_blank">
+  <a target= "_blank" href="https://drive.google.com/file/d/1GIBVPksPa7eXIBqThlh3zOGtJOp547uQ/view?usp=sharing" target="_blank">
     <img src="https://img.shields.io/badge/Download%20App-JetZone-blue?style=for-the-badge&logo=google-drive" alt="Download JetZone App">
   </a>
 </p>

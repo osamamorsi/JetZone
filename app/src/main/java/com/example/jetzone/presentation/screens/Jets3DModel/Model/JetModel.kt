@@ -1,0 +1,156 @@
+package com.example.jetzone.presentation.screens.Jets3DModel.Model
+
+
+data class JetModel(
+    val name: String,
+    val modelUrl: String,
+    val localFileName: String,
+    val thumbnailUrl: String
+)
+
+val jetModels = listOf(
+    JetModel(
+        "Su-57",
+        "https://drive.google.com/uc?export=download&id=14xr0Yq93V6O3iZRQYhlOaKw1eYDZP-m8",
+        "su57.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2b/Sukhoi_Design_Bureau%2C_054%2C_Sukhoi_Su-57_%2849581303977%29.jpg"
+    ),
+    JetModel(
+        "F-22",
+        "https://drive.google.com/uc?export=download&id=1DgahC3GXsShLaTWYGzwBCtir6zuN8K6U",
+        "f22.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/F-22_Raptor_edit1_%28cropped%29.jpg/1200px-F-22_Raptor_edit1_%28cropped%29.jpg"
+    ),
+    JetModel(
+        "Rafale",
+        "https://drive.google.com/uc?export=download&id=1xDNWDXJW_dLZVwSxsjTfqgYnL9OdUb29",
+        "rafale.glb",
+        "https://www.aeroflap.com.br/wp-content/uploads/2024/01/DASSAULT-RAFALE.webp"
+    ),
+    JetModel(
+        "F-16",
+        "https://drive.google.com/uc?export=download&id=1XUKzbIjgnncHeCZL2jmC1JYceTxm9-MR",
+        "f16.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/6/66/F-16_Fighting_Falcon.jpg"
+    ),
+    JetModel(
+        "J-20",
+        "https://drive.google.com/uc?export=download&id=1sLnx9Oh2v4sOWPxn2CadaY_KPrWxRo_e",
+        "j20.glb",
+        "https://www.19fortyfive.com/wp-content/uploads/2025/05/J-20-Fighter-5.jpg"
+    ),
+    JetModel(
+        "Mig-29",
+        "https://drive.google.com/uc?export=download&id=15X1gc_QuamUDoN8P2ef2-KI0evAFQJY4",
+        "mig29.glb",
+        "https://www.defensemagazine.com/upload/NEWS/2024/AIR/MIG/MiG-35D_(3861086285).jpg"
+    ),
+    JetModel(
+        "Su-30",
+        "https://drive.google.com/uc?export=download&id=1d3BwGzXecfsRZFQZESSTXK-cOdsjRedW",
+        "su30.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d5/Sukhoi_Su-30_inflight.jpg"
+    ),
+    JetModel(
+        "F-35",
+        "https://drive.google.com/uc?export=download&id=1uFDYm_SrsWy9tBnQGa7Ro_bYAvCrtSCe",
+        "f35.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/6/61/F-35A_flight_%28cropped%29.jpg"
+    ),
+    JetModel(
+        "A10c",
+        "https://drive.google.com/uc?export=download&id=1IN-TfCBKMczi-qTvvHTd4M9YWWoD-Uws",
+        "A10c.glb",
+        "https://static.wikia.nocookie.net/dcs_world/images/5/50/A10C.jpg"
+    ),
+    JetModel(
+        "B-1 Lancer",
+        "https://drive.google.com/uc?export=download&id=1ycwclTecR7F5TUvXMkFHragJdnDABgkM",
+        "b1.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7d/B-1B_air_refueling.jpg"
+    ),
+    JetModel(
+        "B-2 Spirit",
+        "https://drive.google.com/uc?export=download&id=1YQEYH3XLkqjyzNJfwFoWjcrmRXGvj49r",
+        "b2.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/B-2_first_flight_071201-F-9999J-034.jpg/960px-B-2_first_flight_071201-F-9999J-034.jpg"
+    ),
+    JetModel(
+        "F-117",
+        "https://drive.google.com/uc?export=download&id=19tfA5St-IMhmN4XE4DaS2GQOP01G0DNN",
+        "f117.glb",
+        "https://www.fiddlersgreen.net/aircraft/Lockheed-F117/IMAGES/F-117-nighthawk-clouds.png"
+    ),
+    JetModel(
+        "Xi'an H-6",
+        "https://drive.google.com/uc?export=download&id=1oQFROohapVwNTpg0CmPFZ6LvH0kQCe9e",
+        "h6.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/H-6K_20214_20211119.jpg/1200px-H-6K_20214_20211119.jpg"
+    ),
+    JetModel(
+        "J-31",
+        "https://drive.google.com/uc?export=download&id=1NFah5ysntwStsVHxjS0HR4Tie91VNomx",
+        "j31.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Shenyang_J-31_%28F60%29_at_the_2014_Zhuhai_Air_Show.jpg/960px-Shenyang_J-31_%28F60%29_at_the_2014_Zhuhai_Air_Show.jpg"
+    ),
+    JetModel(
+        "J-36",
+        "https://drive.google.com/uc?export=download&id=1yxVNlHWxGjsNX2cNxzXK6fp_riJlX1_e",
+        "j36.glb",
+        "https://nationalsecurityjournal.org/wp-content/uploads/2025/08/J-36-Fighter-Artist-Rendition-from-X-Screenshot-1.jpg"
+    ),
+    JetModel(
+        "MiG-1.44",
+        "https://drive.google.com/uc?export=download&id=1LOWOJVV8XhpKF9v97EA4iqq8t7M5m5av",
+        "mig144.glb",
+        "https://acecombat.wiki.gg/images/thumb/a/a7/MiG-1.44_Flatpack_Infinity_flyby_1.jpg/640px-MiG-1.44_Flatpack_Infinity_flyby_1.jpg"
+    ),
+    JetModel(
+        "SR-71",
+        "https://drive.google.com/uc?export=download&id=1WQUIPeI1rNi_jQ7Te0usYSNO75V2Ngu5",
+        "sr71.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sr71_1.jpg/978px-Sr71_1.jpg"
+    ),
+    JetModel(
+        "Su-34",
+        "https://drive.google.com/uc?export=download&id=1WmyMKwyuOf6q7ZVolFUw9DEAmLTePe7t",
+        "su34.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/7/76/MAKS2015part1-10_%28cropped%29.jpg"
+    ),
+    JetModel(
+        "Su-47",
+        "https://drive.google.com/uc?export=download&id=1e__H-klHrLRV2hYAUFeMfR3SV3Gpx8Io",
+        "su47.glb",
+        "https://nationalsecurityjournal.org/wp-content/uploads/2024/09/Su-47-Fighter.jpg"
+    ),
+    JetModel(
+        "Su-75",
+        "https://drive.google.com/uc?export=download&id=1BlL0wxNZIEq63_wpulXF6u7IdJhe4c2N",
+        "su75.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Vladimir_Putin_in_MAKS_Airshow_2021_12.jpg/1200px-Vladimir_Putin_in_MAKS_Airshow_2021_12.jpg"
+    ),
+    JetModel(
+        "Tu-95",
+        "https://drive.google.com/uc?export=download&id=1FZ4bo0hcXCkUaFzTJtgiTO2y-CRfILmF",
+        "tu95.glb",
+        "https://i.ytimg.com/vi/Nkt33vuE9_k/maxresdefault.jpg"
+    ),
+    JetModel(
+        "Tu-22",
+        "https://drive.google.com/uc?export=download&id=1QcWKX_1Q3cRmO1WoDLrlMQuu_pWRG2nn",
+        "tu22.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tupolev_Tu-22M3M_GEFEST_%2819230388334%29.jpg"
+    ),
+    JetModel(
+        "Typhoon",
+        "https://drive.google.com/uc?export=download&id=1vLA-epZMNd3ELMpS2qrGo2U-wzEpePU-",
+        "typhoon.glb",
+        "https://www.defensepriorities.org/wp-content/uploads/2024/09/Eurofighter_Typhoon_FGR4_7_5969162249-2880x1440.jpg"
+    ),
+    JetModel(
+        "YF-23",
+        "https://drive.google.com/uc?export=download&id=1ZCs_npRBm9IpwcUhjYOb_0lCnJHEYnoQ",
+        "yf23.glb",
+        "https://static.wikia.nocookie.net/acecombat/images/f/f1/AC7_YF-23_Flyby.jpg"
+    ),
+)
